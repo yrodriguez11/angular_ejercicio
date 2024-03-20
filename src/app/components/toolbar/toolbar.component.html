@@ -1,0 +1,14 @@
+<mat-toolbar color="primary">
+  <button mat-icon-button class="example-icon">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <span><span>CRUD Aplicación</span></span>
+
+  <span class="spacer"></span>
+
+  <div fxLayout fxLayoutAlign="end" fxLayoutGap="10px" class="button-container">
+    <button mat-raised-button (click)="openAddEditCountryForm()">Agregar País</button>
+    <button mat-raised-button (click)="updateAllData()">Actualizar Data</button>
+  </div>
+</mat-toolbar>
+ 

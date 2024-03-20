@@ -1,0 +1,26 @@
+.spacer {
+  flex: 1 1 auto; /* Fills remaining space */
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end; 
+  gap: 10px;
+}
+
+@media (max-width: 768px) { 
+  .button-container {
+    flex-wrap: wrap; 
+    button{
+      font-size: xx-small;
+      max-width: 100px;
+    }
+  }
+
+  .mat-toolbar{
+    height: auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+
+}

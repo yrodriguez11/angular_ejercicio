@@ -1,0 +1,17 @@
+.content{
+    padding-top: 10px;
+    margin: 25px;
+}
+.row {
+    display: flex;
+    gap: 10px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+    button { 
+        flex: 1;
+    }
+  }
